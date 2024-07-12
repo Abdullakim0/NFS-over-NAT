@@ -9,6 +9,16 @@ Two machines (Server and Client) with Linux-based OS.
 Both machines should have NFS utilities installed.
 Port forwarding configured on the router (to map external IP to the internal IP of the NFS server).
 
+First I am gonna set up NAT network.
+
+NAT (Network Address Translation) network refers to a network setup that uses NAT to manage the IP addresses of devices within the network. This setup allows multiple devices on a private network to share a single public IP address or a pool of public IP addresses for accessing external networks, such as the Internet.
+
+Key Features of a NAT Network
+
+Private to Public Translation: Devices on the private network use private IP addresses (e.g., 192.168.x.x, 10.x.x.x). The NAT device (usually a router) translates these private IP addresses to a public IP address when communicating with external networks.
+
+Public to Private Translation: Responses from external networks are translated back from the public IP address to the corresponding private IP address of the device on the local network.
+
 Install NFS Utilities
 On both the server and client machines, install the NFS utilities.
 
